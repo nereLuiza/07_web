@@ -58,3 +58,23 @@ nav.menu ul li a:hover {
     background-color: #173587b9;
     border-radius: 5px;
 }
+
+#info {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#info li a {
+    text-decoration: none;
+    color: #0e2053;
+    font-weight: bold; 
+    transition: border-bottom 0.3s ease;
+}
+
+#info li a:hover {
+    border-bottom: 2px solid #173587b9;
+}
